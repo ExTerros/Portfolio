@@ -21,7 +21,7 @@ const Home = () => {
       text: 'ExTerros', 
       link: 'discordapp.com/users/113380867614773248',
       isLink: true
-    },
+    }
   ];
 
   useEffect(() => {
@@ -56,9 +56,10 @@ const Home = () => {
   };
 
   return (
+    <>
     <div className="flex flex-col items-center justify-center min-h-screen relative">
       <h1 className="text-4xl font-bold mb-8">Nicolas Duval</h1>
-      <p className="text-lg text-gray-700 mb-4">Développeur full stack en formation chez Zone 01 Rouen</p>
+      <p className="text-lg text-gray-700 mb-4 text-center">Développeur full stack en formation chez Zone 01 Rouen</p>
       <p 
         className={`text-lg text-gray-700 mb-4 ${texts[index].isLink ? 'cursor-pointer hover:text-blue-500' : ''}`} 
         id="typingText" 
@@ -71,6 +72,7 @@ const Home = () => {
         Me Découvrir
       </NavLink>
     </div>
+    </>
   );
 };
 
