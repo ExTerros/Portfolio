@@ -3,6 +3,8 @@ import Root from "./Root";
 import Home from "./pages/Home";
 import PageError from "./pages/error/PageError";
 import AboutMe from "./pages/AboutMe";
+import MyProject from "./pages/MyProject";
+import { getReadme } from "./services/github/githubService";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +19,11 @@ const router = createBrowserRouter([
       {
         path: 'about-me',
         element: <AboutMe/>
+      },
+      {
+        path: 'my-project',
+        element: <MyProject/>,
+        loader: () => getReadme(),
       }
     ]
   }
