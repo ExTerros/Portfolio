@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Blind Test Socket.IO",
+    "shortDescription": "Description Blind Test Socket.IO",
+    "mdFile": "blind-test-socketIO.md",
+    "repoLink": "https://github.com/ExTerros/Blind-Test-Socket.io",
+    "isPrivate": false
+  },
+  {
+    "title": "Bot Discord Template JS",
+    "shortDescription": "Description Bot Discord Template JS",
+    "mdFile": "discord-bot-template-js.md",
+    "repoLink": "https://github.com/ExTerros/discord-bot-template-js",
+    "isPrivate": false
+  },
+  {
+    "title": "Lem-in",
+    "shortDescription": "Description Lem-in",
+    "mdFile": "lem-in.md",
+    "repoLink": "",
+    "isPrivate": true
+  }
+]
