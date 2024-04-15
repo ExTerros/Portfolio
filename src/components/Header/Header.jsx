@@ -44,7 +44,7 @@ const Header = () => {
                             <NavLink to="/about-me" className={isActive("/about-me")}>À propos</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/my-projects" className={isActive("/my-project")}>Mes Projets</NavLink>
+                            <NavLink to="/my-projects" className={isActive("/my-projects")}>Mes Projets</NavLink>
                         </li>
                         <li>
                             <NavLink to="/experience" className={isActive("/experience")}>Expérience<br />Formation</NavLink>
