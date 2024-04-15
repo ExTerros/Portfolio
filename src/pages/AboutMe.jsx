@@ -26,7 +26,7 @@ const AboutMe = () => {
               développeur Full Stack chez <NavLink to="https://zone01normandie.org/intra/rouen/profile" target="_blank" className="text-sky-600 underline">Zone01</NavLink>, 
               à Rouen, depuis mai 2023. À l'âge de 26 ans, cette décision 
               représentait bien plus qu'un simple changement de carrière. 
-              C'était l'opportunité de dévellopeur cette passions 
+              C'était l'opportunité de déveloper cette passions 
               de manière approfondie.
               <br />
               <br />
