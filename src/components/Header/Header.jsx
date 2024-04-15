@@ -1,8 +1,13 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { NavLink } from 'react-router-dom';
 import ContactButton from './ContactButton';
+import { initFlowbite } from 'flowbite';
 
 const Header = () => {
+
+    useEffect(() => {
+        initFlowbite();
+    }, []);
 
     const isActive = (path) => {
         if (window.location.pathname == path){

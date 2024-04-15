@@ -8,13 +8,11 @@ const Project = () => {
   const project = useLoaderData();
 
   return (
-    <>
-      <div className="flex flex-col items-center justify-center min-h-screen relative mt-20">
-        <Markdown remarkPlugins={[[remarkGfm, {singleTilde: false}]]} className="prose lg:prose-xl">
-          {project}
-        </Markdown>
-      </div>
-    </>
+    <div className="flex flex-col items-center justify-center min-h-screen relative mt-20">
+      <Markdown remarkPlugins={[[remarkGfm, {singleTilde: false}]]} className="prose markdown-container">
+        {project}
+      </Markdown>
+    </div>
   );
 };
 

@@ -8,7 +8,7 @@ const MyProject = () => {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center min-h-screen relative">
+      <div className="mt-16 flex flex-col items-center justify-center min-h-screen relative">
         <div className="py-16">
           <div className="mx-auto px-6 max-w-6xl text-gray-500">
             <div className="text-center">
