@@ -5,7 +5,6 @@ import { GithubOriginal, GitbookLine } from 'devicons-react';
 
 const MyProject = () => {
   const projects = useLoaderData();
-  console.log("🚀 ~ MyProject ~ projects:", projects)
 
   return (
     <>
@@ -13,10 +12,10 @@ const MyProject = () => {
         <div className="py-16">
           <div className="mx-auto px-6 max-w-6xl text-gray-500">
             <div className="text-center">
-              <h2 className="text-3xl text-gray-950 dark:text-white font-semibold">
+              <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
                 Mes Projets
-              </h2>
-              <p className="mt-6 text-gray-700 dark:text-gray-300">
+              </h1>
+              <p className="mb-6 text-lg font-normal text-gray-800 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
                 Certains des projets ne sont pas publics car ils peuvent faire partie du cursus de Zone01.
               </p>
             </div>
@@ -30,7 +29,7 @@ const MyProject = () => {
                         <div key={project.mdFile} className="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900">
                           <div className="relative">
                               <div className="pb-6 rounded-b-[--card-border-radius]">
-                              <h3 className="text-2xl mb-4 text-gray-950 dark:text-white font-semibold">
+                              <h3 className="text-2xl mb-4 text-gray-950 dark:text-white font-semibold underline underline-offset-3 decoration-2 decoration-gray-400">
                                 {project.title}
                               </h3>
                                   <p className="text-gray-700 dark:text-gray-300">{project.shortDescription}</p>

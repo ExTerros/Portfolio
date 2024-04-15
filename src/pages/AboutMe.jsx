@@ -17,10 +17,10 @@ const AboutMe = () => {
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 text-center">
                 Nicolas Duval
-                <br className="hidden lg:inline-block" />
+                <br/>
                 <span>Développeur full stack en formation chez Zone 01 Rouen</span>
               </h1>
-              <p className="mb-8 leading-relaxed">
+              <p className="mb-8 leading-relaxed text-lg font-normal text-gray-800 dark:text-gray-400">
               Après six années en tant que technicien d'usinage, 
               j'effectue une transition professionnelle pour devenir 
               développeur Full Stack chez <NavLink to="https://zone01normandie.org/intra/rouen/profile" target="_blank" className="text-sky-600 underline">Zone01</NavLink>, 
@@ -43,67 +43,66 @@ const AboutMe = () => {
               un projet combinant une API en Rust, un bot Discord en JavaScript,
               une base de données en PostgreSQL, et un site en ReactJS. 
               </p>
-              {/* TODO: FIX icons responsive */}
-              <div className="mx-auto">
-                <div className="flex justify-center">
-                  <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+
+              <div className="mx-auto" id="icons">
+                <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4 items-center">
+                  <div>
                     <Html5OriginalWordmark size="50"/>
                   </div>
-                  <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                  <div>
                     <Css3OriginalWordmark size="50"/>
                   </div>
-                  <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                  <div>
                     <JavascriptOriginal size="50"/>
                   </div>
-                  <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                  <div>
                     <GoOriginalWordmark size="50"/>
                   </div>
-                  <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                  <div>
                     <RustOriginal size="50"/>
                   </div>
-                  <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                  <div>
                     <PhpOriginal size="50"/>
                   </div>
-                  <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                  <div>
                     <SymfonyOriginal size="50"/>
                   </div>
-                  <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                  <div>
                     <TypescriptOriginal size="50"/>
                   </div>
                 </div>
-
-                <div className="flex justify-center">
-                  <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4">
+                  <div>
                     <ReactOriginalWordmark size="50"/>
                   </div>
-                  <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                  <div>
                     <VitejsOriginal size="50"/>
                   </div>
-                  <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                  <div>
                     <DiscordjsOriginal size="50"/>
                   </div>
-                  <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                  <div>
                     <NodejsOriginalWordmark size="50"/>
                   </div>
-                  <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                  <div>
                     <MysqlOriginalWordmark size="50"/>
                   </div>
-                  <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                  <div>
                     <PostgresqlOriginalWordmark size="50"/>
                   </div>
-                  <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                  <div>
                     <SqliteOriginalWordmark size="50"/>
                   </div>
                 </div>
 
-                <div className="flex justify-center">
-                  <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4">
+                  <div>
                     <VscodeOriginalWordmark size="50"/>
                   </div>
-                  <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                  <div>
                     <PhpstormOriginal  size="50"/>
                   </div>
-                  <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                  <div>
                     <IntellijOriginal  size="50"/>
                   </div>
                 </div>

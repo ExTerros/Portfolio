@@ -20,7 +20,6 @@ const ContactButton = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("🚀 ~ handleSubmit ~ formData:", formData);
 
     try {
       const webhookUrl = import.meta.env.VITE_DISCORD_WEBHOOK_URL;
@@ -40,7 +39,6 @@ const ContactButton = () => {
       });
 
       if (response.ok) {
-        console.log("Form data sent to Discord webhook successfully");
         setFormData({
           prenom: "",
           nom: "",

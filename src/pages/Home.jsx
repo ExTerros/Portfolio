@@ -58,10 +58,10 @@ const Home = () => {
   return (
     <>
     <div className="flex flex-col items-center justify-center min-h-screen relative">
-      <h1 className="text-4xl font-bold mb-8">Nicolas Duval</h1>
-      <p className="text-lg text-gray-700 mb-4 text-center">Développeur full stack en formation chez Zone 01 Rouen</p>
+      <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Nicolas Duval</h1>
+      <p className="mb-6 text-lg font-normal text-gray-800 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Développeur full stack en formation chez Zone 01 Rouen</p>
       <p 
-        className={`text-lg text-gray-700 mb-4 ${texts[index].isLink ? 'cursor-pointer hover:text-blue-500' : ''}`} 
+        className={`text-lg font-normal text-gray-70 lg:text-xl dark:text-gray-400 mb-4 ${texts[index].isLink ? 'cursor-pointer hover:text-blue-500' : ''}`} 
         id="typingText" 
         onMouseDown={() => handleClick(texts[index])}
       >

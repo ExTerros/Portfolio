@@ -6,8 +6,6 @@ import remarkGfm from "remark-gfm"
 
 const Project = () => {
   const project = useLoaderData();
-  console.log("🚀 ~ Project ~ project:", project)
-
 
   return (
     <>
