@@ -6,6 +6,7 @@ import AboutMe from "./pages/AboutMe";
 import MyProjects from "./pages/MyProject";
 import { getProjectListFile, getProjectFile } from "./services/github/githubService";
 import Project from "./pages/Project";
+import Experience from "./pages/Experience";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
             loader: (param) => getProjectFile(param.params.projectName)
           }
         ]
+      },
+      {
+        path: 'experience',
+        element: <Experience/>
       }
     ]
   }
