@@ -18,7 +18,7 @@ const Header = () => {
         <nav className="dark:bg-gray-900 w-full fixed z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 bg-opacity-0">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <NavLink to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="./img/nd_logo.png" className="h-8" alt="Nicolas Duval Logo"/>
+                <img src="/img/nd_logo.png" className="h-8" alt="Nicolas Duval Logo"/>
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Nicolas Duval</span>
             </NavLink>
             <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -39,7 +39,7 @@ const Header = () => {
                         <NavLink to="/about-me" className={isActive("/about-me")}>À propos</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/my-project" className={isActive("/my-project")}>Mes Projets</NavLink>
+                        <NavLink to="/my-projects" className={isActive("/my-project")}>Mes Projets</NavLink>
                     </li>
                     <li>
                         <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Expérience</a>

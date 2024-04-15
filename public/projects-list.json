@@ -1,21 +1,21 @@
 [
   {
     "title": "Blind Test Socket.IO",
-    "shortDescription": "Description Blind Test Socket.IO",
+    "shortDescription": "Ce projet crée une plateforme de blind-test où les joueurs utilisent leur téléphone avec un PC comme hôte. La communication entre le PC et les téléphones se fait via Socket.io.",
     "mdFile": "blind-test-socketIO.md",
     "repoLink": "https://github.com/ExTerros/Blind-Test-Socket.io",
     "isPrivate": false
   },
   {
     "title": "Bot Discord Template JS",
-    "shortDescription": "Description Bot Discord Template JS",
+    "shortDescription": "Ce projet est un bot Discord en JavaScript utilisant Discord.js. Il inclut des fonctionnalités interactives, des événements et une connexion à une base de données MySQL.",
     "mdFile": "discord-bot-template-js.md",
     "repoLink": "https://github.com/ExTerros/discord-bot-template-js",
     "isPrivate": false
   },
   {
     "title": "Lem-in",
-    "shortDescription": "Description Lem-in",
+    "shortDescription": "Lem-in simule le déplacement de fourmis à travers un réseau de salles et de tunnels en sélectionnant les chemins les plus efficaces tout en respectant les contraintes. Projet cursus Zone01",
     "mdFile": "lem-in.md",
     "repoLink": "",
     "isPrivate": true

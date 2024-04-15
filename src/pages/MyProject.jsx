@@ -1,13 +1,12 @@
 import React, { Suspense } from "react";
-import { Await, useLoaderData, useParams } from "react-router-dom";
+import { Await, useLoaderData, NavLink } from "react-router-dom";
 import Spinner from "../components/Loading/Spinner";
 import { GithubOriginal, GitbookLine } from 'devicons-react';
 
 const MyProject = () => {
   const projects = useLoaderData();
-  console.log("🚀 ~ MyProject ~ projects:", projects);
+  console.log("🚀 ~ MyProject ~ projects:", projects)
 
-  JSON.stringify;
   return (
     <>
       <div className="flex flex-col items-center justify-center min-h-screen relative">
@@ -38,14 +37,13 @@ const MyProject = () => {
                               </div>
 
                               <div className="flex gap-3 -mb-8 py-4 border-t border-gray-200 dark:border-gray-800">
-                                    <a
-                                      href="#"
-                                      target="_blank"
+                                    <NavLink
+                                      to={"/my-projects/" + project.mdFile}
                                       className="group rounded-xl disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:active:bg-gray-500/10 flex gap-1.5 items-center text-sm h-8 px-3.5 justify-center"
                                     >
                                       <span>En savoir plus</span>
                                       <GitbookLine size="25" />
-                                    </a>
+                                    </NavLink>
                                   {!project.isPrivate && (
                                     <a
                                       href={project.repoLink}

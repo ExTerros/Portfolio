@@ -3,8 +3,9 @@ import Root from "./Root";
 import Home from "./pages/Home";
 import PageError from "./pages/error/PageError";
 import AboutMe from "./pages/AboutMe";
-import MyProject from "./pages/MyProject";
-import { getReadme } from "./services/github/githubService";
+import MyProjects from "./pages/MyProject";
+import { getProjectListFile, getProjectFile } from "./services/github/githubService";
+import Project from "./pages/Project";
 
 const router = createBrowserRouter([
   {
@@ -21,9 +22,19 @@ const router = createBrowserRouter([
         element: <AboutMe/>
       },
       {
-        path: 'my-project',
-        element: <MyProject/>,
-        loader: () => getReadme(),
+        path: 'my-projects',
+        children : [
+          {
+            path: '',
+            element: <MyProjects/>,
+            loader: () => getProjectListFile(),
+          },
+          {
+            path: ':projectName',
+            element: <Project/>,
+            loader: (param) => getProjectFile(param.params.projectName)
+          }
+        ]
       }
     ]
   }
