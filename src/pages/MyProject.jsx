@@ -37,7 +37,7 @@ const MyProject = () => {
                 Mes Projets
               </h1>
               <p className="mb-6 text-lg font-normal text-gray-800 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-                Certains des projets ne sont pas publics car ils peuvent faire partie du cursus de Zone01.
+                Certains des projets ne sont pas publiques car ils peuvent faire partie du cursus de Zone01.
               </p>
             </div>
             <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">

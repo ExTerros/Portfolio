@@ -49,7 +49,7 @@
   },
   {
     "title": "UniversalTranslateForge",
-    "shortDescription": "Un projet est une extension pour Minecraft Forge qui permet la traduction de texte en jeu en utilisant une l'API de traduction TranslateApi.py. L'extension utilise une clé API pour accéder au service de traduction.",
+    "shortDescription": "Ce projet est une extension pour Minecraft Forge qui permet la traduction de texte en jeu en utilisant une l'API de traduction TranslateApi.py. L'extension utilise une clé API pour accéder au service de traduction.",
     "mdFile": "universal_translate_forge.md",
     "repoLink": "",
     "isPrivate": true,
