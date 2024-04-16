@@ -68,7 +68,7 @@ const Home = () => {
         {texts[index].icon} {text}
         <span className="select-none animate-blink">|</span>
       </p>
-      <NavLink to="/about-me" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded relative">
+      <NavLink to="/about-me" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 font-bold py-2 px-4 relative">
         Me Découvrir
       </NavLink>
     </div>

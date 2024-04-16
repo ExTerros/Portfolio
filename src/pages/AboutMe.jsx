@@ -15,15 +15,15 @@ const AboutMe = () => {
         <section className="text-gray-600 body-font">
           <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 text-center">
-                Nicolas Duval
+              <h1 className="text-center">
+                <span className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Nicolas Duval</span>
                 <br/>
-                <span>Développeur full stack en formation chez Zone 01 Rouen</span>
+                <span className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">Développeur full stack en formation chez Zone 01 Rouen</span>
               </h1>
-              <p className="mb-8 leading-relaxed text-lg font-normal text-gray-800 dark:text-gray-400">
+              <p className="mb-8 mt-5 leading-relaxed text-xl text-gray-900 dark:text-gray-400">
               Après six années en tant que technicien d'usinage, 
               j'effectue une transition professionnelle pour devenir 
-              développeur Full Stack chez <NavLink to="https://zone01normandie.org/intra/rouen/profile" target="_blank" className="text-sky-600 underline">Zone01</NavLink>, 
+              développeur Full Stack chez <NavLink to="https://zone01normandie.org" target="_blank" className="text-sky-600 underline">Zone01</NavLink>, 
               à Rouen, depuis mai 2023. À l'âge de 26 ans, cette décision 
               représentait bien plus qu'un simple changement de carrière. 
               C'était l'opportunité de développer cette passion 

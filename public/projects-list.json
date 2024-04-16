@@ -1,11 +1,23 @@
 [
   {
+    "title": "OkaShibot",
+    "shortDescription": "Oka Shibot, un bot Discord de jeu de cartes accessible via le site okashibot.le-grimoire.fr. Collectionnez plus de 400 cartes, participez à des événements spéciaux et échangez des cartes avec d'autres joueurs pour enrichir votre collection dans une expérience de jeu interactive.",
+    "mdFile": "oka-shibot.md",
+    "repoLink": "",
+    "isPrivate": true,
+    "languages": "Symfony, Javascript",
+    "haveSite": true,
+    "site": "https://okashibot.le-grimoire.fr"
+  },
+  {
     "title": "Blind Test Socket.IO",
     "shortDescription": "Ce projet crée une plateforme de blind-test où les joueurs utilisent leur téléphone avec un PC comme hôte. La communication entre le PC et les téléphones se fait via Socket.io.",
     "mdFile": "blind-test-socketIO.md",
     "repoLink": "https://github.com/ExTerros/Blind-Test-Socket.io",
     "isPrivate": false,
-    "languages": "JavaScript"
+    "languages": "JavaScript",
+    "haveSite": false,
+    "site": ""
   },
   {
     "title": "Bot Discord Template JS",
@@ -13,7 +25,9 @@
     "mdFile": "discord-bot-template-js.md",
     "repoLink": "https://github.com/ExTerros/discord-bot-template-js",
     "isPrivate": false,
-    "languages": "JavaScript"
+    "languages": "JavaScript",
+    "haveSite": false,
+    "site": ""
   },
   {
     "title": "Lem-in",
@@ -21,7 +35,9 @@
     "mdFile": "lem-in.md",
     "repoLink": "",
     "isPrivate": true,
-    "languages": "Go"
+    "languages": "Go",
+    "haveSite": false,
+    "site": ""
   },
   {
     "title": "Pokédex Angular",
@@ -29,7 +45,9 @@
     "mdFile": "test-angular-Pokedex.md",
     "repoLink": "https://github.com/ExTerros/test-angular-Pokedex",
     "isPrivate": false,
-    "languages": "Angular"
+    "languages": "Angular",
+    "haveSite": false,
+    "site": ""
   },
   {
     "title": "Mon Portfolio",
@@ -37,7 +55,9 @@
     "mdFile": "mon-portfolio.md",
     "repoLink": "https://github.com/ExTerros/Portfolio",
     "isPrivate": false,
-    "languages": "ViteJs"
+    "languages": "ViteJs",
+    "haveSite": false,
+    "site": ""
   },
   {
     "title": "TranslateApi.py",
@@ -45,7 +65,9 @@
     "mdFile": "translateApi_py.md",
     "repoLink": "https://github.com/ExTerros/translateApi_py",
     "isPrivate": false,
-    "languages": "Python"
+    "languages": "Python",
+    "haveSite": false,
+    "site": ""
   },
   {
     "title": "UniversalTranslateForge",
@@ -53,6 +75,8 @@
     "mdFile": "universal_translate_forge.md",
     "repoLink": "",
     "isPrivate": true,
-    "languages": "Java"
+    "languages": "Java",
+    "haveSite": false,
+    "site": ""
   }
 ]
