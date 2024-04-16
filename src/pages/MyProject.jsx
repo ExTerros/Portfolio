@@ -1,10 +1,31 @@
 import React, { Suspense } from "react";
 import { Await, useLoaderData, NavLink } from "react-router-dom";
 import Spinner from "../components/Loading/Spinner";
-import { GithubOriginal, GitbookLine } from 'devicons-react';
+import { GithubOriginal, GitbookLine, AngularjsOriginal, JavascriptOriginal, GoOriginalWordmark, VitejsOriginal,
+  PythonOriginal, JavaOriginal } from 'devicons-react';
 
 const MyProject = () => {
   const projects = useLoaderData();
+
+  const getLanguageIcon = (language) => {
+    console.log("🚀 ~ getLanguageIcon ~ language:", language)
+    switch (language) {
+      case 'JavaScript':
+        return <JavascriptOriginal size="20" className="mr-2" />;
+      case 'Angular':
+        return <AngularjsOriginal size="30" className="mr-2" />;
+      case 'Go':
+        return <GoOriginalWordmark size="35" className="mr-2" />;
+      case 'ViteJs':
+        return <VitejsOriginal size="30" className="mr-2" />;
+      case 'Python':
+        return <PythonOriginal size="30" className="mr-2" />;
+      case 'Java':
+        return <JavaOriginal size="30" className="mr-2" />;
+      default:
+        return null;
+    }
+  }
 
   return (
     <>
@@ -29,8 +50,8 @@ const MyProject = () => {
                         <div key={project.mdFile} className="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900">
                           <div className="relative">
                               <div className="pb-6 rounded-b-[--card-border-radius]">
-                              <h3 className="text-2xl mb-4 text-gray-950 dark:text-white font-semibold underline underline-offset-3 decoration-2 decoration-gray-400">
-                                {project.title}
+                              <h3 className="text-2xl mb-4 text-gray-950 dark:text-white font-semibold underline underline-offset-3 decoration-2 decoration-gray-400 flex items-center">
+                                {getLanguageIcon(project.languages)}{project.title}
                               </h3>
                                   <p className="text-gray-700 dark:text-gray-300">{project.shortDescription}</p>
                               </div>

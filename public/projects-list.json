@@ -4,20 +4,55 @@
     "shortDescription": "Ce projet crée une plateforme de blind-test où les joueurs utilisent leur téléphone avec un PC comme hôte. La communication entre le PC et les téléphones se fait via Socket.io.",
     "mdFile": "blind-test-socketIO.md",
     "repoLink": "https://github.com/ExTerros/Blind-Test-Socket.io",
-    "isPrivate": false
+    "isPrivate": false,
+    "languages": "JavaScript"
   },
   {
     "title": "Bot Discord Template JS",
     "shortDescription": "Ce projet est un bot Discord en JavaScript utilisant Discord.js. Il inclut des fonctionnalités interactives, des événements et une connexion à une base de données MySQL.",
     "mdFile": "discord-bot-template-js.md",
     "repoLink": "https://github.com/ExTerros/discord-bot-template-js",
-    "isPrivate": false
+    "isPrivate": false,
+    "languages": "JavaScript"
   },
   {
     "title": "Lem-in",
     "shortDescription": "Lem-in simule le déplacement de fourmis à travers un réseau de salles et de tunnels en sélectionnant les chemins les plus efficaces tout en respectant les contraintes. Projet cursus Zone01",
     "mdFile": "lem-in.md",
     "repoLink": "",
-    "isPrivate": true
+    "isPrivate": true,
+    "languages": "Go"
+  },
+  {
+    "title": "Pokédex Angular",
+    "shortDescription": "Ce projet Angular affiche une liste de Pokémon avec leurs caractéristiques et applique des bordures colorées selon leur type, dans le but de découvrir Angular.",
+    "mdFile": "test-angular-Pokedex.md",
+    "repoLink": "https://github.com/ExTerros/test-angular-Pokedex",
+    "isPrivate": false,
+    "languages": "Angular"
+  },
+  {
+    "title": "Mon Portfolio",
+    "shortDescription": "Le site sur lequel vous vous trouvez actuellement.",
+    "mdFile": "mon-portfolio.md",
+    "repoLink": "https://github.com/ExTerros/Portfolio",
+    "isPrivate": false,
+    "languages": "ViteJs"
+  },
+  {
+    "title": "TranslateApi.py",
+    "shortDescription": "Ce projet fournit des outils Python associés à un mod Minecraft pour permettre la traduction en jeu de panneaux et de livres, en utilisant une API de traduction et une base de données MySQL pour la gestion des utilisateurs et des demandes de traduction.",
+    "mdFile": "translateApi_py.md",
+    "repoLink": "https://github.com/ExTerros/translateApi_py",
+    "isPrivate": false,
+    "languages": "Python"
+  },
+  {
+    "title": "UniversalTranslateForge",
+    "shortDescription": "Un projet est une extension pour Minecraft Forge qui permet la traduction de texte en jeu en utilisant une l'API de traduction TranslateApi.py. L'extension utilise une clé API pour accéder au service de traduction.",
+    "mdFile": "universal_translate_forge.md",
+    "repoLink": "",
+    "isPrivate": true,
+    "languages": "Java"
   }
 ]
